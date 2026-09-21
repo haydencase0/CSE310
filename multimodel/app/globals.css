@@ -1,0 +1,13 @@
+:root { color-scheme: light; font-family: Arial, sans-serif; }
+body { background: #f5f7fb; color: #182230; margin: 0; }
+.task-app { background: white; border-radius: 12px; box-shadow: 0 8px 24px #1822301a; margin: 4rem auto; max-width: 36rem; padding: 2rem; }
+.hello-user { background: white; border-radius: 12px; box-shadow: 0 8px 24px #1822301a; margin: 2rem auto -2rem; max-width: 36rem; padding: 2rem; }
+h1 { margin-top: 0; }
+.task-form-row { display: flex; gap: .5rem; margin-top: .35rem; }
+input[type="text"], input:not([type]) { border: 1px solid #9aa7b7; border-radius: 6px; flex: 1; font: inherit; padding: .55rem; }
+button { background: #1456a0; border: 0; border-radius: 6px; color: white; cursor: pointer; font: inherit; padding: .55rem .8rem; }
+.task-list { list-style: none; padding: 0; }
+.task-list li { align-items: center; border-top: 1px solid #e1e6ed; display: flex; justify-content: space-between; padding: .7rem 0; }
+.task-list label { display: flex; gap: .55rem; align-items: center; }
+.complete { color: #5d6b7a; text-decoration: line-through; }
+.error { color: #a61717; }
