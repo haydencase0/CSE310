@@ -1,15 +1,13 @@
 # My Tasks
 
-My Tasks is a small Next.js web app for managing a local task list and creating saved personal greetings. It demonstrates a three-tier design: React components collect and display information, services enforce the app's rules, and repositories store data in browser local storage.
+My Tasks is a small Next.js web app for managing a local task list. It demonstrates a three-tier design: React components collect and display information, services enforce the app's rules, and repositories store data in browser local storage.
 
 Features include:
 
 - Create, complete, and delete tasks.
 - Persist tasks between browser refreshes.
-- Enter a name and receive a `Hello [name]` response.
-- Save submitted names and greeting messages in browser local storage.
 
-Tasks are stored under `multimodel-todo.tasks`; greetings are stored under `multimodel-hello.greetings`.
+Tasks are stored under `multimodel-todo.tasks`.
 
 ## Instructions for Build and Use
 
@@ -22,9 +20,8 @@ To install dependencies and start the development server:
 
 Instructions for using the software:
 
-1. Type a name in the **Say hello** form and select **Say hello**. The app displays the generated greeting and saves it locally.
-2. Type a task in the **New task** field and select **Add task**.
-3. Select a task's checkbox to mark it complete, or select **Delete** to remove it.
+1. Type a task in the **New task** field and select **Add task**.
+2. Select a task's checkbox to mark it complete, or select **Delete** to remove it.
 
 Available project commands:
 
@@ -59,5 +56,4 @@ The following items could improve the project in the future:
 
 - [ ] Add task editing and due dates.
 - [ ] Add tests for task deletion and completion from the user interface.
-- [ ] Let users view and clear saved greeting history.
 - [ ] Add a server-side database and user accounts.
